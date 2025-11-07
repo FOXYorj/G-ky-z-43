@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #87ceeb, #f0f8ff);
+  color: #222;
+  text-align: center;
+  min-height: 100vh;
+}
+
+header {
+  background: #0056b3;
+  color: white;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  margin: 0;
+}
+
+select, button {
+  padding: 10px;
+  margin: 8px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  background: #ffcc00;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+main {
+  padding: 20px;
+}
+
+.weather-card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  width: 320px;
+  margin: 20px auto;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+.weather-card img {
+  width: 100px;
+  height: 100px;
+}
+
+#forecastContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.forecast {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 110px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  background: #0056b3;
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+  .weather-card, .forecast {
+    width: 90%;
+  }
+}

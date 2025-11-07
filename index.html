@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gökyüzü43 | Kütahya Hava Durumu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌤️ Gökyüzü43</h1>
+    <p>Kütahya ve İlçeleri İçin Güncel Hava Durumu</p>
+    <select id="districtSelect">
+      <option value="Kutahya">Kütahya Merkez</option>
+      <option value="Tavsanli">Tavşanlı</option>
+      <option value="Simav">Simav</option>
+      <option value="Gediz">Gediz</option>
+      <option value="Emet">Emet</option>
+      <option value="Domaniç">Domaniç</option>
+      <option value="Altintas">Altıntaş</option>
+      <option value="Aslanapa">Aslanapa</option>
+      <option value="Çavdarhisar">Çavdarhisar</option>
+      <option value="Hisarcik">Hisarcık</option>
+      <option value="Dumlupinar">Dumlupınar</option>
+      <option value="Pazarlar">Pazarlar</option>
+    </select>
+    <button id="getWeather">Göster</button>
+  </header>
+
+  <main>
+    <section id="weatherContainer">
+      <h2>Hava Durumu Bilgisi</h2>
+      <div class="weather-card" id="currentWeather"></div>
+      <h3>🌦️ Saatlik Tahmin</h3>
+      <div id="forecastContainer"></div>
+    </section>
+  </main>
+
+  <footer>
+    Yapımcı: <strong>Eray Yassın</strong> | Gökyüzü43 © 2025
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
